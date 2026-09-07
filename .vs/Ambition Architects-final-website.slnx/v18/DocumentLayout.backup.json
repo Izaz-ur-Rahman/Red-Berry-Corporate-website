@@ -1,0 +1,446 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\skill_starting\\asp_dot_net\\azfar_projects\\Ambition Architects-final-website\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\skill_starting\\asp_dot_net\\azfar_projects\\Ambition Architects-final-website\\MESSAGE_TO_BACKEND_TEAM.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MESSAGE_TO_BACKEND_TEAM.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\skill_starting\\asp_dot_net\\azfar_projects\\Ambition Architects-final-website\\src\\components\\common\\SEOHead.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\components\\common\\SEOHead.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\skill_starting\\asp_dot_net\\azfar_projects\\Ambition Architects-final-website\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\skill_starting\\asp_dot_net\\azfar_projects\\Ambition Architects-final-website\\docs\\BLOG_MODULE_DOCUMENTATION.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:docs\\BLOG_MODULE_DOCUMENTATION.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\skill_starting\\asp_dot_net\\azfar_projects\\Ambition Architects-final-website\\src\\routes\\blog.$slug.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\routes\\blog.$slug.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\skill_starting\\asp_dot_net\\azfar_projects\\Ambition Architects-final-website\\src\\components\\site\\LeadershipSection.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\components\\site\\LeadershipSection.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\skill_starting\\asp_dot_net\\azfar_projects\\Ambition Architects-final-website\\src\\components\\site\\AIAskWidget.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\components\\site\\AIAskWidget.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\skill_starting\\asp_dot_net\\azfar_projects\\Ambition Architects-final-website\\src\\components\\site\\SiteFooter.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\components\\site\\SiteFooter.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\skill_starting\\asp_dot_net\\azfar_projects\\Ambition Architects-final-website\\src\\components\\home\\Footer.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\components\\home\\Footer.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\skill_starting\\asp_dot_net\\azfar_projects\\Ambition Architects-final-website\\docs\\BLUEPRINT_API_INTEGRATION.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:docs\\BLUEPRINT_API_INTEGRATION.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\skill_starting\\asp_dot_net\\azfar_projects\\Ambition Architects-final-website\\docs\\BLUEPRINT_API_REFERENCE.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:docs\\BLUEPRINT_API_REFERENCE.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\skill_starting\\asp_dot_net\\azfar_projects\\Ambition Architects-final-website\\src\\routes\\build-a-hospitality-venture.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\routes\\build-a-hospitality-venture.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\skill_starting\\asp_dot_net\\azfar_projects\\Ambition Architects-final-website\\docs\\CONTACT_FORM_INTEGRATION.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:docs\\CONTACT_FORM_INTEGRATION.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\skill_starting\\asp_dot_net\\azfar_projects\\Ambition Architects-final-website\\src\\components\\blueprint-tool\\data.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\components\\blueprint-tool\\data.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\skill_starting\\asp_dot_net\\azfar_projects\\Ambition Architects-final-website\\src\\components\\blueprint-tool\\BlueprintTool.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\components\\blueprint-tool\\BlueprintTool.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\skill_starting\\asp_dot_net\\azfar_projects\\Ambition Architects-final-website\\src\\services\\blueprintApi.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\services\\blueprintApi.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\skill_starting\\asp_dot_net\\azfar_projects\\Ambition Architects-final-website\\src\\components\\home\\Blueprint.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\components\\home\\Blueprint.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\skill_starting\\asp_dot_net\\azfar_projects\\Ambition Architects-final-website\\src\\routes\\blueprint.$slug.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\routes\\blueprint.$slug.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\skill_starting\\asp_dot_net\\azfar_projects\\Ambition Architects-final-website\\src\\services\\blogService.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\services\\blogService.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\skill_starting\\asp_dot_net\\azfar_projects\\Ambition Architects-final-website\\src\\components\\blog\\BlogCard.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\components\\blog\\BlogCard.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\skill_starting\\asp_dot_net\\azfar_projects\\Ambition Architects-final-website\\src\\routes\\blog.index.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\routes\\blog.index.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\skill_starting\\asp_dot_net\\azfar_projects\\Ambition Architects-final-website\\src\\components\\blog\\AuthorCard.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\components\\blog\\AuthorCard.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\skill_starting\\asp_dot_net\\azfar_projects\\Ambition Architects-final-website\\docs\\ARCHITECTURE.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:docs\\ARCHITECTURE.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\skill_starting\\asp_dot_net\\azfar_projects\\Ambition Architects-final-website\\src\\routes\\about.contact.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\routes\\about.contact.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\skill_starting\\asp_dot_net\\azfar_projects\\Ambition Architects-final-website\\.env||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:.env||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\skill_starting\\asp_dot_net\\azfar_projects\\Ambition Architects-final-website\\src\\components\\ui\\popover.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\components\\ui\\popover.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MESSAGE_TO_BACKEND_TEAM.txt",
+              "DocumentMoniker": "D:\\skill_starting\\asp_dot_net\\azfar_projects\\Ambition Architects-final-website\\MESSAGE_TO_BACKEND_TEAM.txt",
+              "RelativeDocumentMoniker": "MESSAGE_TO_BACKEND_TEAM.txt",
+              "ToolTip": "D:\\skill_starting\\asp_dot_net\\azfar_projects\\Ambition Architects-final-website\\MESSAGE_TO_BACKEND_TEAM.txt",
+              "RelativeToolTip": "MESSAGE_TO_BACKEND_TEAM.txt",
+              "ViewState": "AgIAAE8AAAAAAAAAAAAAAFoAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2026-09-04T02:39:10.525Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SEOHead.tsx",
+              "DocumentMoniker": "D:\\skill_starting\\asp_dot_net\\azfar_projects\\Ambition Architects-final-website\\src\\components\\common\\SEOHead.tsx",
+              "RelativeDocumentMoniker": "src\\components\\common\\SEOHead.tsx",
+              "ToolTip": "D:\\skill_starting\\asp_dot_net\\azfar_projects\\Ambition Architects-final-website\\src\\components\\common\\SEOHead.tsx",
+              "RelativeToolTip": "src\\components\\common\\SEOHead.tsx",
+              "ViewState": "AgIAABkAAAAAAAAAAAAjwCEAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2026-09-04T02:35:41.918Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "index.html",
+              "DocumentMoniker": "D:\\skill_starting\\asp_dot_net\\azfar_projects\\Ambition Architects-final-website\\index.html",
+              "RelativeDocumentMoniker": "index.html",
+              "ToolTip": "D:\\skill_starting\\asp_dot_net\\azfar_projects\\Ambition Architects-final-website\\index.html",
+              "RelativeToolTip": "index.html",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAABEAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2026-09-04T02:34:44.787Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AIAskWidget.tsx",
+              "DocumentMoniker": "D:\\skill_starting\\asp_dot_net\\azfar_projects\\Ambition Architects-final-website\\src\\components\\site\\AIAskWidget.tsx",
+              "RelativeDocumentMoniker": "src\\components\\site\\AIAskWidget.tsx",
+              "ToolTip": "D:\\skill_starting\\asp_dot_net\\azfar_projects\\Ambition Architects-final-website\\src\\components\\site\\AIAskWidget.tsx",
+              "RelativeToolTip": "src\\components\\site\\AIAskWidget.tsx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2026-09-01T10:39:27.941Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "LeadershipSection.tsx",
+              "DocumentMoniker": "D:\\skill_starting\\asp_dot_net\\azfar_projects\\Ambition Architects-final-website\\src\\components\\site\\LeadershipSection.tsx",
+              "RelativeDocumentMoniker": "src\\components\\site\\LeadershipSection.tsx",
+              "ToolTip": "D:\\skill_starting\\asp_dot_net\\azfar_projects\\Ambition Architects-final-website\\src\\components\\site\\LeadershipSection.tsx",
+              "RelativeToolTip": "src\\components\\site\\LeadershipSection.tsx",
+              "ViewState": "AgIAAJAAAAAAAAAAAAAjwJMAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2026-09-01T10:54:02.871Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "blog.$slug.tsx",
+              "DocumentMoniker": "D:\\skill_starting\\asp_dot_net\\azfar_projects\\Ambition Architects-final-website\\src\\routes\\blog.$slug.tsx",
+              "RelativeDocumentMoniker": "src\\routes\\blog.$slug.tsx",
+              "ToolTip": "D:\\skill_starting\\asp_dot_net\\azfar_projects\\Ambition Architects-final-website\\src\\routes\\blog.$slug.tsx",
+              "RelativeToolTip": "src\\routes\\blog.$slug.tsx",
+              "ViewState": "AgIAAKQAAAAAAAAAAAAjwKwAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2026-09-01T10:39:55.244Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BLOG_MODULE_DOCUMENTATION.md",
+              "DocumentMoniker": "D:\\skill_starting\\asp_dot_net\\azfar_projects\\Ambition Architects-final-website\\docs\\BLOG_MODULE_DOCUMENTATION.md",
+              "RelativeDocumentMoniker": "docs\\BLOG_MODULE_DOCUMENTATION.md",
+              "ToolTip": "D:\\skill_starting\\asp_dot_net\\azfar_projects\\Ambition Architects-final-website\\docs\\BLOG_MODULE_DOCUMENTATION.md",
+              "RelativeToolTip": "docs\\BLOG_MODULE_DOCUMENTATION.md",
+              "ViewState": "AgIAAAcBAAAAAAAAAAAAAAcBAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2026-09-01T10:40:12.752Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "build-a-hospitality-venture.tsx",
+              "DocumentMoniker": "D:\\skill_starting\\asp_dot_net\\azfar_projects\\Ambition Architects-final-website\\src\\routes\\build-a-hospitality-venture.tsx",
+              "RelativeDocumentMoniker": "src\\routes\\build-a-hospitality-venture.tsx",
+              "ToolTip": "D:\\skill_starting\\asp_dot_net\\azfar_projects\\Ambition Architects-final-website\\src\\routes\\build-a-hospitality-venture.tsx",
+              "RelativeToolTip": "src\\routes\\build-a-hospitality-venture.tsx",
+              "ViewState": "AgIAAH0BAAAAAAAAAAAjwIUBAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2026-09-01T10:41:12.574Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CONTACT_FORM_INTEGRATION.md",
+              "DocumentMoniker": "D:\\skill_starting\\asp_dot_net\\azfar_projects\\Ambition Architects-final-website\\docs\\CONTACT_FORM_INTEGRATION.md",
+              "RelativeDocumentMoniker": "docs\\CONTACT_FORM_INTEGRATION.md",
+              "ToolTip": "D:\\skill_starting\\asp_dot_net\\azfar_projects\\Ambition Architects-final-website\\docs\\CONTACT_FORM_INTEGRATION.md",
+              "RelativeToolTip": "docs\\CONTACT_FORM_INTEGRATION.md",
+              "ViewState": "AgIAAFsBAAAAAAAAAAAtwGkBAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2026-09-01T10:41:18.896Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Footer.tsx",
+              "DocumentMoniker": "D:\\skill_starting\\asp_dot_net\\azfar_projects\\Ambition Architects-final-website\\src\\components\\home\\Footer.tsx",
+              "RelativeDocumentMoniker": "src\\components\\home\\Footer.tsx",
+              "ToolTip": "D:\\skill_starting\\asp_dot_net\\azfar_projects\\Ambition Architects-final-website\\src\\components\\home\\Footer.tsx",
+              "RelativeToolTip": "src\\components\\home\\Footer.tsx",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAAAFMAAABfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2026-09-01T10:43:03.609Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "SiteFooter.tsx",
+              "DocumentMoniker": "D:\\skill_starting\\asp_dot_net\\azfar_projects\\Ambition Architects-final-website\\src\\components\\site\\SiteFooter.tsx",
+              "RelativeDocumentMoniker": "src\\components\\site\\SiteFooter.tsx",
+              "ToolTip": "D:\\skill_starting\\asp_dot_net\\azfar_projects\\Ambition Architects-final-website\\src\\components\\site\\SiteFooter.tsx",
+              "RelativeToolTip": "src\\components\\site\\SiteFooter.tsx",
+              "ViewState": "AgIAACwAAAAAAAAAAAAAADEAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2026-09-01T11:02:10.71Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "BLUEPRINT_API_REFERENCE.md",
+              "DocumentMoniker": "D:\\skill_starting\\asp_dot_net\\azfar_projects\\Ambition Architects-final-website\\docs\\BLUEPRINT_API_REFERENCE.md",
+              "RelativeDocumentMoniker": "docs\\BLUEPRINT_API_REFERENCE.md",
+              "ToolTip": "D:\\skill_starting\\asp_dot_net\\azfar_projects\\Ambition Architects-final-website\\docs\\BLUEPRINT_API_REFERENCE.md",
+              "RelativeToolTip": "docs\\BLUEPRINT_API_REFERENCE.md",
+              "ViewState": "AgIAAIEBAAAAAAAAAAAtwI8BAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2026-09-01T10:41:00.909Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "BLUEPRINT_API_INTEGRATION.md",
+              "DocumentMoniker": "D:\\skill_starting\\asp_dot_net\\azfar_projects\\Ambition Architects-final-website\\docs\\BLUEPRINT_API_INTEGRATION.md",
+              "RelativeDocumentMoniker": "docs\\BLUEPRINT_API_INTEGRATION.md",
+              "ToolTip": "D:\\skill_starting\\asp_dot_net\\azfar_projects\\Ambition Architects-final-website\\docs\\BLUEPRINT_API_INTEGRATION.md",
+              "RelativeToolTip": "docs\\BLUEPRINT_API_INTEGRATION.md",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAMAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2026-09-01T10:40:45.834Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "data.ts",
+              "DocumentMoniker": "D:\\skill_starting\\asp_dot_net\\azfar_projects\\Ambition Architects-final-website\\src\\components\\blueprint-tool\\data.ts",
+              "RelativeDocumentMoniker": "src\\components\\blueprint-tool\\data.ts",
+              "ToolTip": "D:\\skill_starting\\asp_dot_net\\azfar_projects\\Ambition Architects-final-website\\src\\components\\blueprint-tool\\data.ts",
+              "RelativeToolTip": "src\\components\\blueprint-tool\\data.ts",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2026-09-01T10:41:22.088Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "BlueprintTool.tsx",
+              "DocumentMoniker": "D:\\skill_starting\\asp_dot_net\\azfar_projects\\Ambition Architects-final-website\\src\\components\\blueprint-tool\\BlueprintTool.tsx",
+              "RelativeDocumentMoniker": "src\\components\\blueprint-tool\\BlueprintTool.tsx",
+              "ToolTip": "D:\\skill_starting\\asp_dot_net\\azfar_projects\\Ambition Architects-final-website\\src\\components\\blueprint-tool\\BlueprintTool.tsx",
+              "RelativeToolTip": "src\\components\\blueprint-tool\\BlueprintTool.tsx",
+              "ViewState": "AgIAANQCAAAAAAAAAAAjwNwCAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2026-09-01T10:40:33.975Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "blueprintApi.ts",
+              "DocumentMoniker": "D:\\skill_starting\\asp_dot_net\\azfar_projects\\Ambition Architects-final-website\\src\\services\\blueprintApi.ts",
+              "RelativeDocumentMoniker": "src\\services\\blueprintApi.ts",
+              "ToolTip": "D:\\skill_starting\\asp_dot_net\\azfar_projects\\Ambition Architects-final-website\\src\\services\\blueprintApi.ts",
+              "RelativeToolTip": "src\\services\\blueprintApi.ts",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAewCYAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2026-09-01T10:40:29.091Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Blueprint.tsx",
+              "DocumentMoniker": "D:\\skill_starting\\asp_dot_net\\azfar_projects\\Ambition Architects-final-website\\src\\components\\home\\Blueprint.tsx",
+              "RelativeDocumentMoniker": "src\\components\\home\\Blueprint.tsx",
+              "ToolTip": "D:\\skill_starting\\asp_dot_net\\azfar_projects\\Ambition Architects-final-website\\src\\components\\home\\Blueprint.tsx",
+              "RelativeToolTip": "src\\components\\home\\Blueprint.tsx",
+              "ViewState": "AgIAAF4AAAAAAAAAAAAjwGYAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2026-09-01T10:40:24.822Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "blueprint.$slug.tsx",
+              "DocumentMoniker": "D:\\skill_starting\\asp_dot_net\\azfar_projects\\Ambition Architects-final-website\\src\\routes\\blueprint.$slug.tsx",
+              "RelativeDocumentMoniker": "src\\routes\\blueprint.$slug.tsx",
+              "ToolTip": "D:\\skill_starting\\asp_dot_net\\azfar_projects\\Ambition Architects-final-website\\src\\routes\\blueprint.$slug.tsx",
+              "RelativeToolTip": "src\\routes\\blueprint.$slug.tsx",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAAACsAAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2026-09-01T10:40:18.127Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "blogService.ts",
+              "DocumentMoniker": "D:\\skill_starting\\asp_dot_net\\azfar_projects\\Ambition Architects-final-website\\src\\services\\blogService.ts",
+              "RelativeDocumentMoniker": "src\\services\\blogService.ts",
+              "ToolTip": "D:\\skill_starting\\asp_dot_net\\azfar_projects\\Ambition Architects-final-website\\src\\services\\blogService.ts",
+              "RelativeToolTip": "src\\services\\blogService.ts",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAAAUAAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2026-09-01T10:40:11.092Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "BlogCard.tsx",
+              "DocumentMoniker": "D:\\skill_starting\\asp_dot_net\\azfar_projects\\Ambition Architects-final-website\\src\\components\\blog\\BlogCard.tsx",
+              "RelativeDocumentMoniker": "src\\components\\blog\\BlogCard.tsx",
+              "ToolTip": "D:\\skill_starting\\asp_dot_net\\azfar_projects\\Ambition Architects-final-website\\src\\components\\blog\\BlogCard.tsx",
+              "RelativeToolTip": "src\\components\\blog\\BlogCard.tsx",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAABgAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2026-09-01T10:40:09.213Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "blog.index.tsx",
+              "DocumentMoniker": "D:\\skill_starting\\asp_dot_net\\azfar_projects\\Ambition Architects-final-website\\src\\routes\\blog.index.tsx",
+              "RelativeDocumentMoniker": "src\\routes\\blog.index.tsx",
+              "ToolTip": "D:\\skill_starting\\asp_dot_net\\azfar_projects\\Ambition Architects-final-website\\src\\routes\\blog.index.tsx",
+              "RelativeToolTip": "src\\routes\\blog.index.tsx",
+              "ViewState": "AgIAACUAAAAAAAAAAAAAACgAAABUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2026-09-01T10:40:03.905Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "AuthorCard.tsx",
+              "DocumentMoniker": "D:\\skill_starting\\asp_dot_net\\azfar_projects\\Ambition Architects-final-website\\src\\components\\blog\\AuthorCard.tsx",
+              "RelativeDocumentMoniker": "src\\components\\blog\\AuthorCard.tsx",
+              "ToolTip": "D:\\skill_starting\\asp_dot_net\\azfar_projects\\Ambition Architects-final-website\\src\\components\\blog\\AuthorCard.tsx",
+              "RelativeToolTip": "src\\components\\blog\\AuthorCard.tsx",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAABUAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2026-09-01T10:39:51.344Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ARCHITECTURE.md",
+              "DocumentMoniker": "D:\\skill_starting\\asp_dot_net\\azfar_projects\\Ambition Architects-final-website\\docs\\ARCHITECTURE.md",
+              "RelativeDocumentMoniker": "docs\\ARCHITECTURE.md",
+              "ToolTip": "D:\\skill_starting\\asp_dot_net\\azfar_projects\\Ambition Architects-final-website\\docs\\ARCHITECTURE.md",
+              "RelativeToolTip": "docs\\ARCHITECTURE.md",
+              "ViewState": "AgIAAGMBAAAAAAAAAAAtwGsBAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2026-09-01T10:39:34.751Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "about.contact.tsx",
+              "DocumentMoniker": "D:\\skill_starting\\asp_dot_net\\azfar_projects\\Ambition Architects-final-website\\src\\routes\\about.contact.tsx",
+              "RelativeDocumentMoniker": "src\\routes\\about.contact.tsx",
+              "ToolTip": "D:\\skill_starting\\asp_dot_net\\azfar_projects\\Ambition Architects-final-website\\src\\routes\\about.contact.tsx",
+              "RelativeToolTip": "src\\routes\\about.contact.tsx",
+              "ViewState": "AgIAAJsBAAAAAAAAAAAjwKMBAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2026-09-01T10:39:25.303Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": ".env",
+              "DocumentMoniker": "D:\\skill_starting\\asp_dot_net\\azfar_projects\\Ambition Architects-final-website\\.env",
+              "RelativeDocumentMoniker": ".env",
+              "ToolTip": "D:\\skill_starting\\asp_dot_net\\azfar_projects\\Ambition Architects-final-website\\.env",
+              "RelativeToolTip": ".env",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-09-01T10:39:20.311Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "popover.tsx",
+              "DocumentMoniker": "D:\\skill_starting\\asp_dot_net\\azfar_projects\\Ambition Architects-final-website\\src\\components\\ui\\popover.tsx",
+              "RelativeDocumentMoniker": "src\\components\\ui\\popover.tsx",
+              "ToolTip": "D:\\skill_starting\\asp_dot_net\\azfar_projects\\Ambition Architects-final-website\\src\\components\\ui\\popover.tsx",
+              "RelativeToolTip": "src\\components\\ui\\popover.tsx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2026-09-01T10:37:45.342Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
