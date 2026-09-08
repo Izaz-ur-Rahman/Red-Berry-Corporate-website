@@ -81,7 +81,7 @@ export function Footer() {
           </div>
 
           <div className="mt-10 pt-6 border-t border-border/60 flex flex-col md:flex-row md:items-center md:justify-between gap-3 text-xs text-foreground/50">
-            <div>© {new Date().getFullYear()} Red Berry Corporate Services. All rights reserved.</div>
+            <div>© {new Date().getFullYear()} Red Berry Corporate Services Provider. All rights reserved.</div>
             <div className="flex items-center gap-4">
               <span>Dubai · UAE · GCC</span>
               <span className="w-1 h-1 rounded-full bg-foreground/30" />

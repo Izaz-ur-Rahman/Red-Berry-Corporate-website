@@ -51,7 +51,7 @@ export function SiteFooter() {
           </div>
 
           <div className="mt-8 sm:mt-10 pt-6 border-t border-border/60 flex flex-col gap-4 text-xs text-foreground/50">
-            <div className="text-center sm:text-left">© {new Date().getFullYear()} Red Berry Corporate Services. All rights reserved.</div>
+            <div className="text-center sm:text-left">© {new Date().getFullYear()} Red Berry Corporate Services Provider. All rights reserved.</div>
             <div className="flex flex-wrap items-center justify-center sm:justify-start gap-x-3 sm:gap-x-4 gap-y-2">
               <span>Dubai · UAE · GCC</span>
               <span className="hidden sm:inline w-1 h-1 rounded-full bg-foreground/30" />
