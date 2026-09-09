@@ -150,15 +150,29 @@ export const SECTIONS: Section[] = [
     cta: { label: "Explore the infrastructure", to: "/infrastructure" },
   },
   {
-    key: "resources-hub", label: "Resources Hub", to: "/resources-hub",
-    panelKicker: "The resources platform",
-    panelTitle: "A Private Resources Hub For Ambitious Operators",
-    panelDescription: "Frameworks, reports, and indices for those building seriously in the GCC.",
-    groups: [
-      { items: RESOURCES_HUB },
-    ],
-    cta: { label: "Browse Resources Hub", to: "/resources-hub" },
+  key: "resources-hub",
+  label: "Resources Hub",
+  to: "/resources-hub",
+  panelKicker: "The resources platform",
+  panelTitle: "A Private Resources Hub For Ambitious Operators",
+  panelDescription:
+    "Frameworks, reports, and indices for those building seriously in the GCC.",
+  groups: [],
+  cta: {
+    label: "Browse Resources Hub",
+    to: "/resources-hub",
   },
+},
+  // {
+  //   key: "resources-hub", label: "Resources Hub", to: "/resources-hub",
+  //   panelKicker: "The resources platform",
+  //   panelTitle: "A Private Resources Hub For Ambitious Operators",
+  //   panelDescription: "Frameworks, reports, and indices for those building seriously in the GCC.",
+  //   groups: [
+  //     { items: RESOURCES_HUB },
+  //   ],
+  //   cta: { label: "Browse Resources Hub", to: "/resources-hub" },
+  // },
   {
     key: "about", label: "About", to: "/about",
     panelKicker: "The firm",
