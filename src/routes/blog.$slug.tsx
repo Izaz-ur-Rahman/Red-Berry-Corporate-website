@@ -367,101 +367,164 @@ export default function BlogDetailPage() {
           >
               <style>
                 {`
+                  /*
+                   * Blog content typography — this is a literal port of the
+                   * CMS editor's ".prose-post" rules (redberry-coprate-cms
+                   * src/styles.css). The old approach here used Tailwind's
+                   * "prose" typography plugin with its own guessed rem-based
+                   * scale (prose-sm/base/lg + prose-h1:text-2xl, etc.), which
+                   * has nothing to do with what the editor actually renders —
+                   * that's why headings (and everything else) kept coming out
+                   * a different size than what was typed. Tailwind's "prose"
+                   * classes are intentionally NOT used below anymore, so any
+                   * heading level, list, quote, code block, etc. typed in the
+                   * editor will always render at this exact same size here,
+                   * for any future post, without needing another one-off fix.
+                   * If the editor's .prose-post rules ever change, mirror the
+                   * change here too so the two stay identical.
+                   */
+                  .blog-content {
+                    font-size: 17px;
+                    line-height: 1.75;
+                    color: var(--color-foreground);
+                    word-break: break-word;
+                    overflow-wrap: break-word;
+                  }
+                  .blog-content > * + * { margin-top: 0.85em; }
+
+                  .blog-content h1,
+                  .blog-content h2,
+                  .blog-content h3,
+                  .blog-content h4 {
+                    font-family: "Instrument Serif", ui-serif, Georgia, serif;
+                    font-weight: 400;
+                    color: var(--color-foreground);
+                    text-wrap: balance;
+                    word-break: break-word;
+                    overflow-wrap: break-word;
+                  }
                   .blog-content h1 {
-                    margin-top: 3rem !important;
-                    margin-bottom: 2.5rem !important;
+                    font-size: 2.1em;
+                    line-height: 1.15;
+                    letter-spacing: -0.012em;
+                    margin-top: 1.2em;
+                    margin-bottom: 0.3em;
                   }
                   .blog-content h2 {
-                    margin-top: 2.5rem !important;
-                    margin-bottom: 2rem !important;
+                    font-size: 1.7em;
+                    line-height: 1.2;
+                    letter-spacing: -0.012em;
+                    margin-top: 1.2em;
+                    margin-bottom: 0.3em;
                   }
                   .blog-content h3 {
-                    margin-top: 2rem !important;
-                    margin-bottom: 1.5rem !important;
+                    font-size: 1.3em;
+                    line-height: 1.25;
+                    margin-top: 1em;
+                    margin-bottom: 0.25em;
                   }
                   .blog-content h4 {
-                    margin-top: 1.75rem !important;
-                    margin-bottom: 1.25rem !important;
+                    font-size: 1.1em;
+                    line-height: 1.3;
+                    margin-top: 0.9em;
+                    margin-bottom: 0.2em;
+                    color: var(--color-muted-foreground);
                   }
-                  .blog-content h5 {
-                    margin-top: 1.5rem !important;
-                    margin-bottom: 1rem !important;
-                  }
+                  .blog-content h2 + p,
+                  .blog-content h3 + p,
+                  .blog-content h4 + p { margin-top: 0.2em; }
+
                   .blog-content p {
-                    margin-bottom: 0.5rem !important;
+                    margin: 0.55em 0;
+                    color: var(--color-foreground);
+                    opacity: 0.85;
+                    text-wrap: pretty;
+                    hyphens: auto;
+                    word-break: break-word;
+                    overflow-wrap: break-word;
                   }
                   .blog-content ul,
-                  .blog-content ol {
-                    margin-top: 0.5rem !important;
-                    margin-bottom: 0.5rem !important;
+                  .blog-content ol { padding-left: 1.5em; margin: 0.6em 0; }
+                  .blog-content ul { list-style: disc; }
+                  .blog-content ol { list-style: decimal; }
+                  .blog-content li { margin: 0.2em 0; color: var(--color-foreground); opacity: 0.85; }
+                  .blog-content li > p { margin: 0; }
+
+                  .blog-content blockquote {
+                    border-left: 3px solid var(--color-primary);
+                    padding: 0.25em 0 0.25em 1.1em;
+                    font-family: "Instrument Serif", ui-serif, Georgia, serif;
+                    font-style: italic;
+                    font-size: 1.2em;
+                    line-height: 1.45;
+                    color: var(--color-muted-foreground);
+                    margin: 1.1em 0;
                   }
-                  .blog-content li {
-                    margin-top: 0.15rem !important;
-                    margin-bottom: 0.15rem !important;
+                  .blog-content hr {
+                    border: none;
+                    height: 1px;
+                    background: var(--color-border);
+                    margin: 1.6em auto;
+                    width: 40%;
                   }
-                  
-                  @media (min-width: 640px) {
-                    .blog-content h1 {
-                      margin-top: 3.5rem !important;
-                      margin-bottom: 3rem !important;
-                    }
-                    .blog-content h2 {
-                      margin-top: 3rem !important;
-                      margin-bottom: 2.5rem !important;
-                    }
-                    .blog-content h3 {
-                      margin-top: 2.5rem !important;
-                      margin-bottom: 2rem !important;
-                    }
-                    .blog-content h4 {
-                      margin-top: 2rem !important;
-                      margin-bottom: 1.75rem !important;
-                    }
-                    .blog-content h5 {
-                      margin-top: 1.75rem !important;
-                      margin-bottom: 1.5rem !important;
-                    }
-                    .blog-content p {
-                      margin-bottom: 0.65rem !important;
-                    }
-                    .blog-content ul,
-                    .blog-content ol {
-                      margin-top: 0.65rem !important;
-                      margin-bottom: 0.65rem !important;
-                    }
-                    .blog-content li {
-                      margin-top: 0.15rem !important;
-                      margin-bottom: 0.15rem !important;
-                    }
+                  .blog-content code {
+                    background: var(--color-muted);
+                    color: var(--color-primary);
+                    padding: 0.15em 0.4em;
+                    border-radius: 4px;
+                    font-size: 0.9em;
                   }
+                  .blog-content pre {
+                    background: var(--color-muted);
+                    color: var(--color-foreground);
+                    border: 1px solid var(--color-border);
+                    padding: 0.9em 1.1em;
+                    border-radius: 8px;
+                    overflow-x: auto;
+                    margin: 1em 0;
+                    font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+                    font-size: 0.9em;
+                    line-height: 1.55;
+                    white-space: pre-wrap;
+                    tab-size: 2;
+                  }
+                  .blog-content pre code {
+                    background: transparent;
+                    padding: 0;
+                    color: inherit;
+                    font-family: inherit;
+                    font-size: inherit;
+                    white-space: inherit;
+                  }
+                  .blog-content a {
+                    color: var(--color-primary);
+                    text-decoration: underline;
+                    text-underline-offset: 3px;
+                  }
+                  .blog-content img {
+                    border-radius: 10px;
+                    margin: 1em 0;
+                    max-width: 100%;
+                    height: auto;
+                  }
+                  .blog-content strong { color: var(--color-foreground); font-weight: 600; }
+                  .blog-content table {
+                    border-collapse: collapse;
+                    width: 100%;
+                    margin: 1.6em 0;
+                    font-size: 0.95em;
+                  }
+                  .blog-content th,
+                  .blog-content td {
+                    border: 1px solid var(--color-border);
+                    padding: 0.5em 0.75em;
+                    text-align: left;
+                  }
+                  .blog-content th { background: var(--color-muted); font-weight: 600; }
                 `}
               </style>
               <div
-                className="blog-content prose prose-sm sm:prose-base lg:prose-lg max-w-none
-                  prose-headings:font-display prose-headings:text-foreground prose-headings:tracking-tight
-                  prose-h1:text-2xl sm:prose-h1:text-3xl lg:prose-h1:text-4xl
-                  prose-h2:text-xl sm:prose-h2:text-2xl lg:prose-h2:text-3xl
-                  prose-h3:text-lg sm:prose-h3:text-xl lg:prose-h3:text-2xl
-                  prose-h4:text-base sm:prose-h4:text-lg lg:prose-h4:text-xl
-                  prose-p:text-foreground/80 prose-p:leading-[1.7] sm:prose-p:leading-[1.8]
-                  prose-a:text-primary prose-a:no-underline prose-a:font-medium hover:prose-a:underline
-                  prose-strong:text-foreground prose-strong:font-semibold
-                  prose-em:text-foreground/90
-                  prose-blockquote:border-l-4 prose-blockquote:border-l-primary prose-blockquote:pl-4 sm:prose-blockquote:pl-6 prose-blockquote:py-2 prose-blockquote:text-foreground/70 prose-blockquote:italic prose-blockquote:bg-foreground/5 prose-blockquote:rounded-r-lg prose-blockquote:!my-6
-                  prose-code:text-primary prose-code:bg-foreground/5 prose-code:px-1.5 sm:prose-code:px-2 prose-code:py-0.5 sm:prose-code:py-1 prose-code:rounded prose-code:text-xs sm:prose-code:text-sm prose-code:font-mono
-                  prose-pre:bg-foreground/5 prose-pre:border prose-pre:border-border/60 prose-pre:rounded-lg sm:prose-pre:rounded-xl prose-pre:p-4 sm:prose-pre:p-6 prose-pre:overflow-x-auto prose-pre:text-xs sm:prose-pre:text-sm prose-pre:!my-6
-                  prose-img:rounded-lg sm:prose-img:rounded-xl lg:prose-img:rounded-2xl prose-img:shadow-lg prose-img:!my-8 sm:prose-img:!my-10
-                  prose-hr:border-border/60 prose-hr:!my-10 sm:prose-hr:!my-14
-                  prose-ul:list-disc prose-ul:pl-5 sm:prose-ul:pl-6 prose-ul:text-foreground/80
-                  prose-ol:list-decimal prose-ol:pl-5 sm:prose-ol:pl-6 prose-ol:text-foreground/80
-                  prose-li:leading-relaxed prose-li:marker:text-primary
-                  prose-table:border-collapse prose-table:w-full prose-table:!my-8 sm:prose-table:!my-10 prose-table:text-sm sm:prose-table:text-base
-                  prose-th:border prose-th:border-border/60 prose-th:bg-foreground/5 prose-th:p-2 sm:prose-th:p-3 prose-th:text-left prose-th:font-semibold
-                  prose-td:border prose-td:border-border/60 prose-td:p-2 sm:prose-td:p-3"
-                style={{
-                  wordBreak: 'break-word',
-                  overflowWrap: 'anywhere'
-                }}
+                className="blog-content max-w-none"
                 dangerouslySetInnerHTML={{ __html: selectedBlog.blogDetails }}
               />
           </motion.div>
