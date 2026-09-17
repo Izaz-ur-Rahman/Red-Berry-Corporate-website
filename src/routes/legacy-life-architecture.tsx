@@ -208,7 +208,7 @@ function LegacyLifeArchitecturePage() {
     <SiteLayout>
       <SEOHead
         title="Legacy & Life Architecture | Red Berry"
-        description="What outlasts you should be designed, not left to chance. Succession, governance and legacy planning for families building across generations"
+        description="What outlasts you should be designed, not left to chance. Succession, governance and legacy planning for families building across generations."
         url="https://redberry.ae/legacy-life-architecture"
       />
       {/* HERO */}

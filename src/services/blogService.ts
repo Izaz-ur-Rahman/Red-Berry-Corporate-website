@@ -3,7 +3,7 @@
  * Handles all blog-related API calls
  */
 
-const API_BASE_URL = import.meta.env.VITE_API_URL || 'https://api.redberry.ae/api';
+export const API_BASE_URL = import.meta.env.VITE_API_URL || 'https://api.redberry.ae/api';
 
 // ============== Type Definitions ==============
 
@@ -18,6 +18,41 @@ export interface BlogAuthor {
   linkedIn: string;
   facebook: string;
   twitter: string;
+}
+
+// Raw shape actually sent by the API's BlogAuthorDto (see
+// Repository/BlogRepository.cs GetViewerAsync / DTOs/Blog/BlogAuthorDto.cs).
+// Two of its property names don't match the BlogAuthor shape above
+// (Bio -> bio vs biography, Whatsapp -> whatsapp vs whatsApp) — left
+// unmapped, those two fields always read back as undefined even though
+// the backend already sends the data.
+interface RawBlogAuthor {
+  userId?: number;
+  fullName?: string;
+  designation?: string | null;
+  bio?: string | null;
+  email?: string | null;
+  phone?: string | null;
+  linkedIn?: string | null;
+  facebook?: string | null;
+  twitter?: string | null;
+  whatsapp?: string | null;
+  profileImage?: string | null;
+}
+
+function mapBlogAuthor(raw: RawBlogAuthor | null | undefined): BlogAuthor {
+  return {
+    profileImage: raw?.profileImage || '',
+    fullName: raw?.fullName || '',
+    designation: raw?.designation || '',
+    biography: raw?.bio || '',
+    email: raw?.email || '',
+    phone: raw?.phone || '',
+    whatsApp: raw?.whatsapp || '',
+    linkedIn: raw?.linkedIn || '',
+    facebook: raw?.facebook || '',
+    twitter: raw?.twitter || '',
+  };
 }
 
 export interface BlogCard {
@@ -196,12 +231,17 @@ export async function getBlogBySlug(slug: string): Promise<BlogDetailResponse> {
     }
 
     const data: BlogDetailResponse = await response.json();
-    
+
     // FIX: Backend returns "faQs" (capital Q) but we need "faqs" (lowercase)
     if (data.data && 'faQs' in data.data) {
       (data.data as any).faqs = (data.data as any).faQs;
     }
-    
+
+    // Normalize the author object — see mapBlogAuthor() above for why.
+    if (data.data) {
+      data.data.author = mapBlogAuthor(data.data.author as unknown as RawBlogAuthor);
+    }
+
     return data;
   } catch (error) {
     console.error('Error fetching blog by slug:', error);

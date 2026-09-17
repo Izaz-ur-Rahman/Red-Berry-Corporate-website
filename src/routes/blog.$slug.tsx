@@ -7,7 +7,7 @@ import { useEffect } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import { Helmet } from 'react-helmet-async';
 import { motion } from 'framer-motion';
-import { Calendar, Clock, Eye, ArrowLeft, Tag, FolderOpen, HelpCircle, User } from 'lucide-react';
+import { Calendar, Clock, Eye, ArrowLeft, Tag, FolderOpen, HelpCircle, User, Mail, Phone, MessageCircle, Linkedin, Facebook, Twitter } from 'lucide-react';
 import { format } from 'date-fns';
 import { SiteLayout } from '@/components/site/SiteLayout';
 import { useAppDispatch, useAppSelector } from '@/store/hooks';
@@ -15,6 +15,17 @@ import { fetchBlogBySlug, clearSelectedBlog } from '@/store/blogSlice';
 import { RelatedBlogCard } from '@/components/blog/RelatedBlogCard';
 import { BlogDetailSkeleton } from '@/components/blog/BlogDetailSkeleton';
 import { BlogErrorState } from '@/components/blog/BlogErrorState';
+import { API_BASE_URL } from '@/services/blogService';
+
+// Base URL for uploaded images (covers, author photos, etc). Images are
+// served from the API's static file root, not under "/api", so the
+// trailing "/api" from API_BASE_URL is stripped here. Deriving this from
+// API_BASE_URL (which already respects VITE_API_URL) instead of a
+// hardcoded production domain means images resolve correctly whichever
+// API this site is actually pointed at — local or production — instead
+// of always asking production even when a file was only ever uploaded
+// to a local dev API.
+const IMAGE_BASE_URL = API_BASE_URL.replace(/\/api\/?$/, '');
 import {
   Accordion,
   AccordionContent,
@@ -28,8 +39,7 @@ const getFullImageUrl = (url: string): string => {
   if (url.startsWith('http://') || url.startsWith('https://')) {
     return url;
   }
-  const baseUrl = 'https://api.redberry.ae';
-  return `${baseUrl}${url.startsWith('/') ? url : '/' + url}`;
+  return `${IMAGE_BASE_URL}${url.startsWith('/') ? url : '/' + url}`;
 };
 
 // Helper function to get author image URL
@@ -38,15 +48,14 @@ const getAuthorImageUrl = (url: string): string => {
   if (url.startsWith('http://') || url.startsWith('https://')) {
     return url;
   }
-  const baseUrl = 'https://api.redberry.ae';
   if (!url.includes('/')) {
-    return `${baseUrl}/uploads/users/${url}`;
+    return `${IMAGE_BASE_URL}/uploads/users/${url}`;
   }
   if (url.includes('/uploads/blogs/')) {
     const correctedUrl = url.replace('/uploads/blogs/', '/uploads/users/');
-    return `${baseUrl}${correctedUrl.startsWith('/') ? correctedUrl : '/' + correctedUrl}`;
+    return `${IMAGE_BASE_URL}${correctedUrl.startsWith('/') ? correctedUrl : '/' + correctedUrl}`;
   }
-  return `${baseUrl}${url.startsWith('/') ? url : '/' + url}`;
+  return `${IMAGE_BASE_URL}${url.startsWith('/') ? url : '/' + url}`;
 };
 
 export default function BlogDetailPage() {
@@ -567,6 +576,133 @@ export default function BlogDetailPage() {
                   </AccordionItem>
                 ))}
               </Accordion>
+            </motion.div>
+          )}
+
+          {/* About the Author */}
+          {selectedBlog.author?.fullName && (
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.6, delay: 0.65 }}
+              className="mb-6 sm:mb-8 md:mb-10"
+            >
+              <div className="rounded-xl sm:rounded-2xl border border-border/40 bg-foreground/[0.02] p-5 sm:p-6 md:p-8">
+                <p className="text-xs sm:text-sm font-medium uppercase tracking-wide text-foreground/50 mb-4 sm:mb-5">
+                  About the Author
+                </p>
+                <div className="flex flex-col sm:flex-row gap-4 sm:gap-6">
+                  {/* Avatar */}
+                  <div className="shrink-0">
+                    {selectedBlog.author.profileImage ? (
+                      <img
+                        src={getAuthorImageUrl(selectedBlog.author.profileImage)}
+                        alt={selectedBlog.author.fullName}
+                        className="w-16 h-16 sm:w-20 sm:h-20 rounded-full object-cover ring-2 ring-primary/20"
+                        onError={(e) => {
+                          e.currentTarget.style.display = 'none';
+                          const fallback = e.currentTarget.nextElementSibling as HTMLElement;
+                          if (fallback) fallback.classList.remove('hidden');
+                        }}
+                      />
+                    ) : null}
+                    <div className={`w-16 h-16 sm:w-20 sm:h-20 rounded-full bg-foreground/10 flex items-center justify-center ring-2 ring-primary/20 ${selectedBlog.author.profileImage ? 'hidden' : ''}`}>
+                      <User className="h-7 w-7 sm:h-8 sm:w-8 text-foreground/60" />
+                    </div>
+                  </div>
+
+                  {/* Details */}
+                  <div className="flex-1 min-w-0">
+                    <h3 className="text-base sm:text-lg font-semibold text-foreground">
+                      {selectedBlog.author.fullName}
+                    </h3>
+                    {selectedBlog.author.designation && (
+                      <p className="text-sm text-primary mb-2 sm:mb-3">
+                        {selectedBlog.author.designation}
+                      </p>
+                    )}
+                    {selectedBlog.author.biography && (
+                      <p className="text-sm sm:text-base text-foreground/70 leading-relaxed mb-3 sm:mb-4">
+                        {selectedBlog.author.biography}
+                      </p>
+                    )}
+
+                    {/* Contact */}
+                    {(selectedBlog.author.email || selectedBlog.author.phone || selectedBlog.author.whatsApp) && (
+                      <div className="flex flex-wrap items-center gap-3 sm:gap-4 text-xs sm:text-sm text-foreground/60 mb-3">
+                        {selectedBlog.author.email && (
+                          <a
+                            href={`mailto:${selectedBlog.author.email}`}
+                            className="inline-flex items-center gap-1.5 hover:text-primary transition-colors"
+                          >
+                            <Mail className="h-3.5 w-3.5 sm:h-4 sm:w-4" />
+                            {selectedBlog.author.email}
+                          </a>
+                        )}
+                        {selectedBlog.author.phone && (
+                          <a
+                            href={`tel:${selectedBlog.author.phone}`}
+                            className="inline-flex items-center gap-1.5 hover:text-primary transition-colors"
+                          >
+                            <Phone className="h-3.5 w-3.5 sm:h-4 sm:w-4" />
+                            {selectedBlog.author.phone}
+                          </a>
+                        )}
+                        {selectedBlog.author.whatsApp && (
+                          <a
+                            href={`https://wa.me/${selectedBlog.author.whatsApp.replace(/[^0-9]/g, '')}`}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="inline-flex items-center gap-1.5 hover:text-primary transition-colors"
+                          >
+                            <MessageCircle className="h-3.5 w-3.5 sm:h-4 sm:w-4" />
+                            {selectedBlog.author.whatsApp}
+                          </a>
+                        )}
+                      </div>
+                    )}
+
+                    {/* Social Links */}
+                    {(selectedBlog.author.linkedIn || selectedBlog.author.facebook || selectedBlog.author.twitter) && (
+                      <div className="flex items-center gap-3">
+                        {selectedBlog.author.linkedIn && (
+                          <a
+                            href={selectedBlog.author.linkedIn}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            aria-label="LinkedIn"
+                            className="text-foreground/50 hover:text-primary transition-colors"
+                          >
+                            <Linkedin className="h-4 w-4 sm:h-5 sm:w-5" />
+                          </a>
+                        )}
+                        {selectedBlog.author.facebook && (
+                          <a
+                            href={selectedBlog.author.facebook}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            aria-label="Facebook"
+                            className="text-foreground/50 hover:text-primary transition-colors"
+                          >
+                            <Facebook className="h-4 w-4 sm:h-5 sm:w-5" />
+                          </a>
+                        )}
+                        {selectedBlog.author.twitter && (
+                          <a
+                            href={selectedBlog.author.twitter}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            aria-label="Twitter"
+                            className="text-foreground/50 hover:text-primary transition-colors"
+                          >
+                            <Twitter className="h-4 w-4 sm:h-5 sm:w-5" />
+                          </a>
+                        )}
+                      </div>
+                    )}
+                  </div>
+                </div>
+              </div>
             </motion.div>
           )}
         </article>
